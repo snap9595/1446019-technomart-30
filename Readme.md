@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Ильшат Давлетбирдин](https://up.htmlacademy.ru/htmlcss/30/user/1446019).
-* Наставник: `Неизвестно`.
+* Наставник: [Алёна Сиприкова](https://htmlacademy.ru/profile/asiprikova).
 
 ---
 
