@@ -1,4 +1,4 @@
-# Личный проект «Техномарт»
+404.html Личный проект «Техномарт»
 
 * Студент: [Ильшат Давлетбирдин](https://up.htmlacademy.ru/htmlcss/30/user/1446019).
 * Наставник: [Алёна Сиприкова](https://htmlacademy.ru/profile/asiprikova).
@@ -10,13 +10,13 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 ---
 
-### Памятка
+404.html404.html404.html Памятка
 
-#### 1. Зарегистрируйтесь на Гитхабе
+404.html404.html404.html404.html 1. Зарегистрируйтесь на Гитхабе
 
 Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
 
-#### 2. Создайте форк
+404.html404.html404.html404.html 2. Создайте форк
 
 [Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1446019-technomart-30) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
@@ -26,7 +26,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037785-d1363f60-7bad-11e7-99da-f02a2f996a01.jpg">
 
-#### 3. Клонируйте репозиторий на свой компьютер
+404.html404.html404.html404.html 3. Клонируйте репозиторий на свой компьютер
 
 Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
 
@@ -34,7 +34,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
 
-#### 4. Начинайте обучение!
+404.html404.html404.html404.html 4. Начинайте обучение!
 
 ---
 
