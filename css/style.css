@@ -93,7 +93,7 @@
 
   /*Fonts*/
   --main-font: Cuprum, Tahoma, sans-serif;
-  --secondary-font: "PT Sans", Arial, sans-serif;
+  --secondary-font: "PT Sans Narrow", Arial, sans-serif;
 
   --font-link-body: 18px;
   --lh-link-body: 24px;
@@ -101,14 +101,25 @@
   --weight-bold: bold;
 }
 
+
 .page-body {
+  min-width: 960px;
+  margin: 0 auto;
+  padding: 0;
   font-family: var(--main-font);
   font-size: 13px;
   line-height: 24px;
   font-weight: var(--weight-normal);
   color: var(--black);
   background-color: var(--white);
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
 
+.page {
+  height:100%;
 }
 
 .page-header {
@@ -130,6 +141,7 @@
   height: 42px;
   color: var(--white);
   background-color: var(--blue);
+
 }
 
 .header-logo {
@@ -294,8 +306,6 @@
 .header-user-active:active {
   color: var(--greylight)
 }
-
-
 .header-navigation {
   font-family: var(--main-font);
   font-weight: var(--weight-normal);
@@ -329,12 +339,11 @@
   text-transform: uppercase;
   list-style: none;
   text-decoration: none;
+  font-family: var(--secondary-font);
 }
 
 .bread-crumbs-icon,
-.bread-crumbs-catalog,
-.bread-crumbs-tool,
-.bread-crumbs-puncher {
+.bread-crumbs-link {
   text-decoration: none;
   color: var(--text-color);
 }
@@ -361,20 +370,7 @@
   list-style: none;
 }
 
-.sort-by-price {
-  text-decoration: none;
-  color: var(--transparent-black30);
-  border-bottom: 1px dashed var(--red);
-}
-
-.sort-by-type {
-  text-decoration: none;
-  color: var(--transparent-black30);
-  border-bottom: 1px dashed var(--red);
-
-}
-
-.sort-by-functional {
+.sort-by-link {
   text-decoration: none;
   color: var(--transparent-black30);
   border-bottom: 1px dashed var(--red);
@@ -385,9 +381,7 @@
   color: var(--red);
 }
 
-.sort-by-price:hover,
-.sort-by-type:hover,
-.sort-by-functional:hover {
+.sort-by-link:hover {
   color: var(--black);
   border-bottom: 1px solid var(--red);
 
@@ -457,7 +451,7 @@
 }
 
 .puncher {
-  font-family: Cuprum;
+  font-family: var(--main-font);
   color: var(--white);
   background-color: var(--transparent-black25);
 }
@@ -656,6 +650,7 @@
 }
 
 /* Footer */
+
 .footer-top,
 .footer-middle {
   background-color: var(--dark-blue);
